@@ -12,15 +12,6 @@
       "type": "http",
       "direction": "out",
       "name": "res"
-    },
-    {
-      "type": "table",
-      "name": "outTable",
-      "tableName": "bitlyRequests",
-      "partitionKey": "urlReq",
-      "rowKey": "{rand-guid}",
-      "connection": "AzureWebJobsStorage",
-      "direction": "out"
     }
   ],
   "disabled": false
